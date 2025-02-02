@@ -1,0 +1,39 @@
+==> Searching for similarly named formulae and casks...
+==> Formulae
+htop
+
+To install htop, run:
+  brew install htop
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/manifests/3.3.0-1
+Already downloaded: /Users/maksim/Library/Caches/Homebrew/downloads/450d75e50618499f17dcd1deb1b0e312ae4f18cf147574cb0f3a55b4cb7cbf2f--htop-3.3.0-1.bottle_manifest.json
+==> Fetching dependencies for htop: ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+Already downloaded: /Users/maksim/Library/Caches/Homebrew/downloads/b2f8ce4e08b15832435170efd265346225ee388d5baab3d5c50e3a77c5673b5a--ncurses-6.5.bottle_manifest.json
+==> Fetching ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:4a529cb864994c26766c55ae8e506297523b36319e0f5f5af0faf8250a451f77
+Already downloaded: /Users/maksim/Library/Caches/Homebrew/downloads/f64e38fd5a624405325ee187acaa507bfb42f8b1740179db178523596741bbb4--ncurses--6.5.arm64_sequoia.bottle.tar.gz
+==> Fetching htop
+==> Downloading https://ghcr.io/v2/homebrew/core/htop/blobs/sha256:3ef4d2047472d6f8fff23cc60e4171fb5cb1ad6a546f0b54e97b43e8d5f97053
+Already downloaded: /Users/maksim/Library/Caches/Homebrew/downloads/b5653f1792b646f76353820c3576f4eda2d46699bd6a6813bf52dc4c51f3c3c4--htop--3.3.0.arm64_sequoia.bottle.1.tar.gz
+==> Installing dependencies for htop: ncurses
+==> Installing htop dependency: ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+Already downloaded: /Users/maksim/Library/Caches/Homebrew/downloads/b2f8ce4e08b15832435170efd265346225ee388d5baab3d5c50e3a77c5673b5a--ncurses-6.5.bottle_manifest.json
+==> Pouring ncurses--6.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ncurses/6.5: 4,052 files, 9.9MB
+==> Installing htop
+==> Pouring htop--3.3.0.arm64_sequoia.bottle.1.tar.gz
+==> Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /opt/homebrew/Cellar/htop/3.3.0: 13 files, 376KB
+==> Running `brew cleanup htop`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> htop
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
