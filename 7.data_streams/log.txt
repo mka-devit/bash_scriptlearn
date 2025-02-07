@@ -1,0 +1,69 @@
+==> Upgrading 3 outdated packages:
+python@3.13 3.13.1 -> 3.13.2
+python@3.12 3.12.8 -> 3.12.9
+curl 8.11.1 -> 8.12.0
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/manifests/8.12.0
+==> Fetching curl
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/blobs/sha256:59ac285d151a18b955ef1e5bdb726961dc852fd187c30684d1af4cf9d50c128d
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.2
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:166ed4ffa110e57196cade5512bd7f5d27ce5c2c386c8abd416b8fcf3f0e1683
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.9
+==> Fetching python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:71e9ee527c125b2fccb9a7495496c7f0dcc1aff8274a2c3992f5f4f5fb9adaa9
+==> Upgrading curl
+  8.11.1 -> 8.12.0 
+==> Pouring curl--8.12.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/curl/8.12.0: 535 files, 4.2MB
+==> Running `brew cleanup curl`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/curl/8.11.1... (531 files, 4.1MB)
+Removing: /Users/maksim/Library/Caches/Homebrew/curl_bottle_manifest--8.11.1... (15.2KB)
+Removing: /Users/maksim/Library/Caches/Homebrew/curl--8.11.1... (1.4MB)
+==> Upgrading python@3.13
+  3.13.1 -> 3.13.2 
+==> Pouring python@3.13--3.13.2.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im pip install -v --[0m
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.2: 3,274 files, 65.4MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.1... (3,269 files, 65.3MB)
+Removing: /Users/maksim/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.1... (20.3KB)
+Removing: /Users/maksim/Library/Caches/Homebrew/python@3.13--3.13.1... (15.5MB)
+==> Upgrading python@3.12
+  3.12.8 -> 3.12.9 
+==> Pouring python@3.12--3.12.9.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.12/3.12.9/bin/python3.12 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.12/3.12.9/bin/python3.12 -Im pip install -v --[0m
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.12
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.12`, `python3.12-config`, `pip3.12` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.12/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.12/3.12.9: 3,273 files, 65.6MB
+==> Running `brew cleanup python@3.12`...
+Removing: /opt/homebrew/Cellar/python@3.12/3.12.8... (3,266 files, 65.5MB)
+Removing: /Users/maksim/Library/Caches/Homebrew/python@3.12_bottle_manifest--3.12.8... (20.7KB)
+Removing: /Users/maksim/Library/Caches/Homebrew/python@3.12--3.12.8... (15.6MB)
+==> Caveats
+==> python@3.12
+Python is installed as
+  /opt/homebrew/bin/python3.12
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.12`, `python3.12-config`, `pip3.12` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.12/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+See: https://docs.brew.sh/Homebrew-and-Python
